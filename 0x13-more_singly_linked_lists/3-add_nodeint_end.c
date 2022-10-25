@@ -19,7 +19,7 @@ new->n = n;
 new->next = NULL;
 if (*head == NULL)
 {
-head = new;
+*head = new;
 return (new);
 }
 temp = *head;
